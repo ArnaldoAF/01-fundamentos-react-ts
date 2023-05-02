@@ -24,14 +24,16 @@ export interface Content {
     content: string;
 }
 
+export interface PostType {
+    id: number;
+    author: Author;
+    publishedAt: Date;
+    content: Content[];
+    comments: CommentProps[];
+}
+
 export interface PostProps {
-    post: {
-        id: number;
-        author: Author;
-        publishedAt: Date;
-        content: Content[];
-        comments: CommentProps[];
-    }
+    post: PostType;
 }
 
 export function Post({post}: PostProps) {
