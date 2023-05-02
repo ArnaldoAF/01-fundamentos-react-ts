@@ -10,7 +10,7 @@ export function Sidebar() {
             src="https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=40" alt="" />
 
             <div className={styles.profile}>
-                <Avatar src="https://api.dicebear.com/6.x/bottts/svg?seed=Arnaldo"/>
+                <Avatar src="https://github.com/ArnaldoAF.png"/>
                 <strong>Arnaldo Assis</strong>
                 <span>Web Developer</span>
             </div>
